@@ -23,8 +23,6 @@
       <param-name>com.sun.jersey.config.property.WebPageContentRegex</param-name>
       <param-value>/(img|js|css)/.*</param-value>
     </init-param>
-
-    <load-on-startup>1</load-on-startup>
   </filter>
 
   <filter-mapping>

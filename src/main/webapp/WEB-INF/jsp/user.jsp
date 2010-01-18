@@ -9,7 +9,7 @@
   <title>Steamify</title>
 </head>
 <body>
-  <h1>${it.user.name}</h1>
+  <h1>${it.user.steamId}</h1>
   Created: ${it.user.created}
 
   <ul>

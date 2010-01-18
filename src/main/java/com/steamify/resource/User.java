@@ -5,16 +5,25 @@ import java.util.Date;
 import java.util.List;
 
 public class User {
-  private String name;
+  private String facebookId;
+  private String steamId;
   private Date created;
   private List<Game> games = new ArrayList<Game>();
 
-  public String getName() {
-    return name;
+  public String getFacebookId() {
+    return facebookId;
   }
 
-  public void setName(String name) {
-    this.name = name;
+  public void setFacebookId(String facebookId) {
+    this.facebookId = facebookId;
+  }
+
+  public String getSteamId() {
+    return steamId;
+  }
+
+  public void setSteamId(String steamId) {
+    this.steamId = steamId;
   }
 
   public Date getCreated() {

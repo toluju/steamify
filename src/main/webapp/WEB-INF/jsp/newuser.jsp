@@ -9,15 +9,11 @@
   <title>Steamify</title>
 </head>
 <body>
-  <form action="/user" method="post">
-    <input type="text" name="name">
-    <input type="submit">
+  <form action="/" method="post">
+    <input type="hidden" name="facebookId" value="${it.facebookId}">
+    <label for="steamId">Enter your steam id:</label>
+    <input type="text" name="steamId">
+    <input type="submit" value="Submit">
   </form>
-
-  <ul>
-    <c:forEach var="user" items="${it.users}">
-      <li><a href="/user/${user.name}">${user.name}</a>
-    </c:forEach>
-  </ul>
 </body>
 </html>
